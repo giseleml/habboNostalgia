@@ -1,0 +1,53 @@
+.form-wrapper {
+    background-color: #6b99ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    padding: 0 1rem;
+    margin-right: 7vw;
+    margin-top: 5vh;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-title {
+    color: #fff;
+}
+
+.form-createacc {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+
+.form-createacc input {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.4rem 0.5rem;
+    font-family: 'VT323', monospace;
+    font-size: 1.3rem;
+}
+
+.form-createacc button {
+    align-self: center;
+    border: 5px double black;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 3rem;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.forgot-password {
+    padding-top: 0.5rem;
+    color: black;
+}
