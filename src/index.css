@@ -4,9 +4,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   font-family: 'VT323', monospace;
-}
-
-main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

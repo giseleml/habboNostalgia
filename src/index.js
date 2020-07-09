@@ -1,20 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
-import Block from './components/Block/Block'
-import Form from './components/Form/Form'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import './index.css';
+import Homepage from './containers/Homepage/homepage'
+import Userpage from './containers/Userpage/userpage'
 
 const App = () => (
-  <main>
-    <Block />
-    <Form />
-  </main>
+  <Switch>
+    <Route path="/client">
+      <Userpage />
+    </Route>
+    <Route exact path="/">
+      <Homepage />
+    </Route>
+  </Switch>
 )
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );

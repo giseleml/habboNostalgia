@@ -1,0 +1,103 @@
+.panel-wrapper {
+    background-color: #6b99ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+    width: 21rem;
+    padding: 0 1rem;
+    margin-right: 7vw;
+    margin-top: 5vh;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 4px 3px 1px rgba(0,0,0,0.4);
+}
+
+.panel-wrapper h4 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.room-types {
+    display: flex;
+    flex-direction: row;
+    width: 21.5rem;
+}
+
+.room-types > * {
+    width: 11rem;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+}
+
+.room-type-public {
+    background-color: #d4dde1;
+}
+
+.room-type-personal {
+    background-color: #88adbd;
+}
+
+.room-types h4 {
+    color:black;
+    font-weight: normal;
+}
+
+.room-list-wrapper {
+    display: flex;
+    position: absolute;
+    top: 10.5rem;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    background-color: #fff;
+    width: 21.5rem;
+    height: 16rem;
+    border: 1px solid black;
+    border-radius: 6px 6px;
+}
+
+.room-list-wrapper h6 {
+    position: absolute;
+    color: black;
+    text-align: start;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+
+#hide-full-rooms {
+    right: 0;
+    margin-right: 0.5rem;
+    font-weight: normal;
+    color: #97aaad;
+    text-decoration: underline;
+}
+
+.room-list-go {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1.4rem;
+}
+
+.room-list-go p { 
+    background-color: #dadada;
+    float: left;
+    margin: 0rem;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    height: 1.2rem;
+    width: 68%;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.room-list-go Button { 
+    float: right;
+    width: 18%;
+    margin-right: 8px;
+    cursor: pointer;
+}

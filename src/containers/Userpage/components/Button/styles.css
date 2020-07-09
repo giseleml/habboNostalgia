@@ -1,0 +1,23 @@
+.go-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #c0c0c0;
+    font-weight: normal;
+    text-decoration: underline;
+    border: none;
+    border-radius: 10px;
+    width: 4rem;
+    height: 1.2rem;
+    font-family: 'VT323', monospace;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+}
+
+.go-btn span {
+    padding-left: 0.3rem;
+}
+
+.single-arrow {
+    width: 10px;
+}
